@@ -11,6 +11,7 @@ repos:
     -   id: check-builtin-literals
     -   id: detect-private-key
     -   id: mixed-line-ending
+    -   id: no-commit-to-branch
 
 # reorder Python imports
 -   repo: https://github.com/asottile/reorder_python_imports
