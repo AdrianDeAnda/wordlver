@@ -21,7 +21,7 @@ repos:
 
 # check for compliant Python 3.10 code
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v2.32.0
+    rev: v2.32.1
     hooks:
     -   id: pyupgrade
         args: [--py310-plus]
