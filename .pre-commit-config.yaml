@@ -15,7 +15,7 @@ repos:
 
 # reorder Python imports
 -   repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.1.0
+    rev: v3.3.0
     hooks:
     -   id: reorder-python-imports
 
@@ -28,7 +28,7 @@ repos:
 
 # format Python code with black
 -   repo: https://github.com/psf/black
-    rev: 22.3.0
+    rev: 22.6.0
     hooks:
     -   id: black
         args: [--line-length=88]
