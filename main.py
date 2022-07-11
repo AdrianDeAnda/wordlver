@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 from collections import defaultdict
-from typing import Sequence
+from collections.abc import Sequence
 
 from wordlver import get_common_characters
 from wordlver import get_most_common_word
